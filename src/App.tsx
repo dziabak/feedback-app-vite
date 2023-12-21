@@ -1,7 +1,12 @@
+// BUILT-IN IMPORTS
+import { RouterProvider } from "react-router-dom";
+// INTERNAL IMPORTS
+import { router } from "./pages/router";
+
 function App() {
 	return (
 		<>
-			<p className="text-2xl">Hello World!</p>
+			<RouterProvider router={router} />
 		</>
 	);
 }
