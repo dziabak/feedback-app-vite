@@ -3,7 +3,7 @@ import { Outlet } from "react-router";
 
 const RootLayout = () => {
 	return (
-		<main className="bg-c-gray font-main">
+		<main className="p-4 bg-c-gray font-main">
 			<Outlet />
 		</main>
 	);

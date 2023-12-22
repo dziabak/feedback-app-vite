@@ -30,7 +30,7 @@ const Navigation = () => {
 					</button>
 				</div>
 				<div className="flex flex-col justify-between p-4 bg-c-white rounded-xl">
-					<div className="flex items-end justify-between">
+					<div className="flex items-end justify-between mb-4">
 						<p className="text-lg font-bold text-c-dark-blue">Roadmap</p>
 						<Link
 							to="/roadmap"
